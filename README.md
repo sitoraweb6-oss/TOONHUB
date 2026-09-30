@@ -1,20 +1,60 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# TOONHUB — 3D Figurine Showcase
 
-# Run and deploy your AI Studio app
+Character-figurine carousel and premium showcase for limited edition 3D figurines. A playful, high-energy collector's experience built by [Sitora Web](https://sitora.org).
 
-This contains everything you need to run your app locally.
+## About
 
-View your app in AI Studio: https://ai.studio/apps/1d00edc4-dc28-4c19-a512-a2695afe6a9f
+TOONHUB is a vibrant product showcase for collectible 3D character figurines — a spinning carousel of limited-edition drops, character stories, and collector-focused presentation designed to feel like stepping into a toy universe.
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Interactive character-figurine carousel
+- Limited-edition drop highlights
+- Character profiles and storytelling sections
+- Bold, playful visual design with smooth motion
+- Fully responsive layout
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Frontend:** React 19, TypeScript, Tailwind CSS 4, Motion, Lucide icons
+- **Build:** Vite 6
+- **Backend:** Express (bundled Node server), Google Gemini AI
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+
+### Installation
+
+```bash
+npm install
+npm run dev
+```
+
+The app will be available at `http://localhost:3000`.
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+├── src/            # Application source
+├── public/         # Static assets and images
+├── index.html      # HTML entry point
+└── package.json
+```
+
+## Links
+
+- Website: https://sitora.org
+- GitHub: https://github.com/sitoraweb6-oss
+
+---
+
+Built with care by [Sitora Web](https://sitora.org).
